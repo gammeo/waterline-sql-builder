@@ -1,5 +1,5 @@
 {
-  "name": "waterline-sql-builder",
+  "name": "@gammeo/waterline-sql-builder",
   "version": "1.0.1",
   "description": "Generate SQL (stage 5 query) from a Waterline statement (stage 4 query).",
   "scripts": {
@@ -36,8 +36,11 @@
     "eslint": "3.5.0",
     "mocha": "3.0.2"
   },
+  "publishConfig": {
+    "@gammeo:registry": "https://gitlab.com/api/v4/projects/29813381/packages/npm/"
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:treelinehq/waterline-sql-builder.git"
+    "url": "git@gitlab.com:gammeo/waterline-sql-builder.git"
   }
 }
